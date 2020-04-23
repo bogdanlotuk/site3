@@ -257,3 +257,123 @@ html{
         }
     }
 }
+
+
+.our-company{
+    height: 820px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/our_company.png);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+
+    .our-company__left-text{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+
+        .our-company__left-text-wrap{
+            display: flex;
+            flex-flow: column;
+            width: 60%;
+            
+            h1{
+                font-size: 71px;
+                font-weight: 700;
+                letter-spacing: -0.59px;
+                line-height: 1;
+                text-align: left;
+                margin-bottom: 20px;
+                span{
+                    color: #fba419;
+                    font-size: 57px;
+                    letter-spacing: -0.47px;
+                }
+            }
+            p{
+                font-size: 24px;
+                font-weight: 500;
+                letter-spacing: 0.6px;
+                line-height: 1.5;
+            }
+        }
+    }
+
+    .our-company__right-text{
+        width: 50%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        
+        .our-company__right-text-wrap{
+            display: flex;
+            flex-flow: column;
+            width: 70%;
+            
+            .creative-work{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                
+                margin-bottom: 50px;
+                .creative-work__img {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 100px;
+                    height: 100px;
+                    background-position: center;
+                    background-size: cover;
+                    
+                    
+                }
+                .creative-work__img--1{
+                    width: 74px;
+                    height: 86px;
+                    background-image: url(../images/flag.png);
+                }
+                .creative-work__img--2{
+                    width: 77px;
+                    height: 77px;
+                    background-image: url(../images/monitor.png);
+                }
+                .creative-work__img--3{
+                    width: 63px;
+                    height: 62px;
+                    background-image: url(../images/diagram.png);
+                }
+                .creative-work__img--4{
+                    width: 71px;
+                    height: 78px;
+                    background-image: url(../images/personal.png);
+                }
+
+                .creative-work__text{
+                    width: 430px;
+                    display: flex;
+                    flex-flow: column;                    
+                   
+                    h3{
+                        font-size: 24px;
+                        font-weight: 600;
+                        color: #fc9e20;
+                        text-transform: uppercase;
+                        margin-top: 0;
+                    }
+                    p{
+                        font-size: 17px;
+                        letter-spacing: 0.42px;
+                        line-height: 24px;
+                        margin: 0;
+                    }
+                }
+            }
+        }
+        
+    }
+
+}

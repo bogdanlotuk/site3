@@ -377,3 +377,157 @@ html{
     }
 
 }
+
+.for-professionals{
+    height: 820px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .for-professionals__creative1{
+        width: 237px;
+        height: 517px;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: flex-end;
+        background-image: url(../images/creative1.png);
+        background-size: cover;
+        background-position: center;
+        color: #fff;
+        margin-right: 35px;
+
+        .for-professionals__top-img{
+            width: 54px;
+            height: 63px;
+            background: url(../images/flag.png);
+            background-position: center;
+            background-size: cover;            
+            margin-bottom: 20px;
+        }
+
+        .for-professionals__bottom-text{
+            display: flex;
+            flex-flow: column;
+            align-items: center;
+            margin-bottom: 30px;
+
+            h3{
+                color: #fc9e20;
+                font-size: 24px;
+                text-transform: uppercase;
+                letter-spacing: 0.6px;       
+                margin: 0;         
+            }
+
+            p{
+                display: flex;
+                width: 85%;
+                font-size: 16px;
+                text-align: center;
+                line-height: 1.5;
+                margin-bottom: 30px;
+            }
+
+            .for-professionals__btn{            
+                width: 127px;
+                height: 36px;                
+                border-radius: 25px;                
+                font-size: 14px; 
+            }
+        }
+
+
+    }
+    .for-professionals__creative2{
+        width: 237px;
+        height: 517px;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: flex-end;
+        background-image: url(../images/creative2.png);
+        background-size: cover;
+        background-position: center;
+        color: #fff;
+        margin-right: 65px;
+
+        .for-professionals__top-img{
+            width: 71px;
+            height: 78px;
+            background: url(../images/personal.png);
+            background-position: center;
+            background-size: cover;
+            margin-bottom: 20px;
+        }
+
+        .for-professionals__bottom-text{
+            display: flex;
+            flex-flow: column;
+            align-items: center;
+            margin-bottom: 30px;
+
+            h3{
+                color: #fc9e20;
+                font-size: 24px;
+                text-transform: uppercase;
+                letter-spacing: 0.6px;   
+                margin: 0;               
+            }
+
+            p{
+                display: flex;
+                width: 85%;
+                font-size: 16px;
+                text-align: center;
+                line-height: 1.5;
+                margin-bottom: 30px;
+            }
+
+            .for-professionals__btn{            
+                width: 127px;
+                height: 36px;                
+                border-radius: 25px;                
+                font-size: 14px; 
+            }
+        }
+
+    }
+
+    .for-professionals__welcome{
+        width: 550px;
+        display: flex;
+        flex-flow: column;
+        align-items: flex-start;
+        justify-content: space-between;
+
+        h2{
+            font-size: 71px;
+            font-weight: 800;
+            margin: 0;
+
+            span{
+                font-size: 57px;
+                color: #fba419;
+            }
+        }
+
+        p{
+            font-size: 18px;
+            color: #252525;
+            line-height: 30px;
+            letter-spacing: 0.45px;
+
+        }
+
+        ul{            
+            height: 195px;
+            list-style-image: url(../images/bird.png);
+            li{
+                margin-bottom: 20px;
+                font-weight: 800;
+            }
+        }
+
+    }
+}

@@ -892,3 +892,212 @@ html{
         }
     }
 }
+
+.contacts{
+    height: 900px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .contacts__in-touch{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: flex-start;
+        background-image: url(../images/GetTouch.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        h3{
+            font-size: 60px;
+            font-weight: 800;
+            color: #fff;
+            margin-left: 200px;
+            span{
+                color: #fba419;
+                font-size: 50px;
+            }
+        }
+        p{
+            display: flex;
+            width: 475px;
+            height: 85px;
+            color: #fff;
+            font-size: 20px;
+            letter-spacing: 0.6px;
+            line-height: 1.5;
+            margin-left: 200px;
+        }        
+    }
+
+    .contacts__right-part{
+        width: 50%;
+        height: 100%;
+        display: flex;
+
+        .contacts__right-part__wrap{
+            display: flex;
+            flex-flow: column;
+            justify-content: center;
+            align-items: flex-start;
+            width: 60%;
+            margin-left: 75px;
+            
+            .contacts__top-text{
+                display: flex;
+                flex-flow: column;
+                justify-content: flex-start;
+                align-items: flex-start;                
+                margin-bottom: 20px;
+                
+                h3{
+                    font-size: 40px;
+                    letter-spacing: -0.47px;
+                    margin-left: 20px;    
+                    margin-bottom: 10px;            
+                }
+                p{
+                    display: flex;                
+                    font-size: 16px;
+                    letter-spacing: 0.4px;
+                    line-height: 1.5;
+                }
+            }
+
+            .contacts__email{
+                display: flex;
+                justify-content: flex-start;
+                align-items: flex-start;
+                height: 90px;
+                width: 300px;
+                
+                margin-bottom: 20px;
+                .contacts__email__img{
+                    width: 54px;
+                    height: 42px;
+                    background-image: url(../images/email.png);
+                    background-position: center;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                }
+                .contacts__email__text{
+                    display: flex;
+                    flex-flow: column;
+                    justify-content: flex-start;
+                    align-items: flex-start;
+                    margin-left: 20px;
+                    h4{
+                        font-size: 14px;
+                        font-weight: 800;  
+                        margin: 0;    
+                        text-transform: uppercase;              
+                    }
+                    p{
+                        font-size: 12px;
+                        font-weight: 800;
+                        margin: 10px 0 0 0;  
+                    }
+                }
+            }
+
+            .contacts__phone{
+                display: flex;
+                justify-content: flex-start;
+                align-items: flex-start;
+                height: 90px;
+                width: 300px;
+                
+                margin-bottom: 20px;
+                .contacts__phone__img{
+                    width: 36px;
+                    height: 54px;
+                    background-image: url(../images/phone.png);
+                    background-position: center;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                }
+                .contacts__phone__text{
+                    display: flex;
+                    flex-flow: column;
+                    justify-content: flex-start;
+                    align-items: flex-start;
+                    margin-left: 40px;
+                    h4{
+                        font-size: 14px;
+                        font-weight: 800;  
+                        margin: 0;    
+                        text-transform: uppercase;              
+                    }
+                    p{
+                        font-size: 12px;
+                        font-weight: 800;
+                        margin: 10px 0 0 0;  
+                    }
+                }
+            }
+
+            .contacts__address{
+                display: flex;
+                justify-content: flex-start;
+                align-items: flex-start;
+                height: 90px;
+                width: 300px;
+                
+                margin-bottom: 20px;
+                .contacts__address__img{
+                    width: 52px;
+                    height: 54px;
+                    background-image: url(../images/map.png);
+                    background-position: center;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                }
+                .contacts__address__text{
+                    display: flex;
+                    flex-flow: column;
+                    justify-content: flex-start;
+                    align-items: flex-start;
+                    margin-left: 20px;
+                    h4{
+                        font-size: 14px;
+                        font-weight: 800;  
+                        margin: 0;    
+                        text-transform: uppercase;              
+                    }
+                    p{
+                        font-size: 12px;
+                        font-weight: 800;
+                        margin-top: 10px;  
+                        line-height: 2;
+                    }
+                }
+            }
+
+            .contacts__social{
+                display: flex;
+                width: 80%;
+                justify-content: space-between;                       
+                align-items: center;                
+                font-size: 24px;
+                a{
+                    color: #000;
+                }
+            }
+        }
+    }
+}
+
+footer{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    background-color: #000;
+    p {
+        color: #fff;
+        margin: 0;
+    }
+}

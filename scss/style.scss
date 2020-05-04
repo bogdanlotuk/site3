@@ -697,6 +697,34 @@ html{
     flex-flow: column;
     justify-content: center;
     align-items: center;
+
+    .case__text-top{
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 30px;
+        h2{
+            font-size: 56px;
+            font-weight: 800;
+            margin-top: 0;
+            margin-bottom: 30px;
+            span{
+                color: #fba419;
+            }
+        }
+        p {
+            display: flex;
+            height: 50px;
+            width: 60%;
+            font-size: 16px;
+            letter-spacing: 0.45px;     
+            text-align: center; 
+            line-height: 1.5;      
+
+        }
+    }
+
     .case__img-bottom{
         display: flex;
         justify-content: center;
@@ -704,19 +732,30 @@ html{
         .case__item{
             height: 375px;
             width: 540px;
-            outline: 1px solid red;
+            
             .case__item__wrap{
                 display: none;
                 h3{
                     font-size: 16px;
                     text-transform: uppercase;
                     color: #fba419;
+                    margin-bottom: 0;
+                    margin-top: 50px;
                 }
                 p{
                     display: flex;
                     width: 60%;
-                    color: #fff;
+                    color: #bfbfbf;
                     letter-spacing: 0.4px;
+                    line-height: 1.5;
+                    margin-bottom: 50px;
+                    text-align: justify;
+                }
+                .case__btn{
+                    width: 126px;
+                    height: 36px;                                 
+                    border-radius: 25px;                
+                    font-size: 14px; 
                 }
             }
             &:hover{

@@ -30,6 +30,12 @@ html {
   text-transform: uppercase;
   cursor: pointer; }
 
+.quotes {
+  display: block;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  margin: 0; }
+
 .header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -201,12 +207,8 @@ html {
       margin-top: 0px;
       margin-bottom: 30px; }
       .welcome .welcome__left-text .welcome__text-div .welcome__quotes {
-        display: block;
         width: 70px;
-        font-family: 'Times New Roman', Times, serif;
-        font-size: 60px;
-        text-align: center;
-        margin: 0; }
+        font-size: 60px; }
       .welcome .welcome__left-text .welcome__text-div .welcome__text1 {
         display: block;
         width: 437px;
@@ -835,5 +837,118 @@ html {
       background-image: url(../images/case2.png); }
     .case .case__img-bottom .case__item3 {
       background-image: url(../images/case3.png); }
+
+.client {
+  height: 820px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .client .client__top {
+    height: 281px;
+    width: 70%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 60px; }
+    .client .client__top .client__top__h3 {
+      width: 370px;
+      height: 100%; }
+      .client .client__top .client__top__h3 h3 {
+        font-size: 66px;
+        line-height: 1; }
+        .client .client__top .client__top__h3 h3 span {
+          font-size: 58px;
+          color: #fba419; }
+    .client .client__top .client__top__img {
+      width: 317px;
+      height: 100%;
+      background-image: url(../images/people2.png);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      margin: 0 20px; }
+    .client .client__top .client__top__text {
+      width: 360px;
+      height: 195px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      -webkit-box-align: start;
+          -ms-flex-align: start;
+              align-items: flex-start; }
+      .client .client__top .client__top__text .client__quotes {
+        width: 40px;
+        font-size: 60px; }
+      .client .client__top .client__top__text .client__text {
+        width: 300px;
+        margin-top: 10px;
+        line-height: 1.5; }
+        .client .client__top .client__top__text .client__text span {
+          font-size: 16px;
+          text-transform: uppercase;
+          font-weight: 800; }
+  .client .client__bottom {
+    height: 281px;
+    width: 70%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .client .client__bottom .client__bottom__img {
+      width: 317px;
+      height: 100%;
+      background-image: url(../images/people1.png);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      margin: 0 80px 0 40px; }
+    .client .client__bottom .client__bottom__text {
+      width: 360px;
+      height: 195px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      -webkit-box-align: start;
+          -ms-flex-align: start;
+              align-items: flex-start; }
+      .client .client__bottom .client__bottom__text .client__quotes {
+        width: 40px;
+        font-size: 60px; }
+      .client .client__bottom .client__bottom__text .client__text {
+        width: 300px;
+        margin-top: 10px;
+        line-height: 1.5; }
+        .client .client__bottom .client__bottom__text .client__text span {
+          font-size: 16px;
+          text-transform: uppercase;
+          font-weight: 800; }
 
 /*# sourceMappingURL=style.css.map */
